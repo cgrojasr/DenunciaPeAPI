@@ -1,0 +1,15 @@
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\bin\Debug\net10.0\DenunciaPeAPI.Application.deps.json
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\bin\Debug\net10.0\DenunciaPeAPI.Application.dll
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\bin\Debug\net10.0\DenunciaPeAPI.Application.pdb
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\bin\Debug\net10.0\DenunciaPeAPI.Domain.dll
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\bin\Debug\net10.0\DenunciaPeAPI.Domain.pdb
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.csproj.AssemblyReference.cache
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.AssemblyInfoInputs.cache
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.AssemblyInfo.cs
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.csproj.CoreCompileInputs.cache
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\Denuncia.0DCEA161.Up2Date
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.dll
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\refint\DenunciaPeAPI.Application.dll
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\DenunciaPeAPI.Application.pdb
+D:\Development\Visual Studio\DenunciaPeAPI\DenunciaPeAPI.Application\obj\Debug\net10.0\ref\DenunciaPeAPI.Application.dll

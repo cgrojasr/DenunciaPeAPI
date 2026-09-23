@@ -1,0 +1,65 @@
+@DenunciaPeAPI_HostAddress = http://localhost:5084
+
+GET {{DenunciaPeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DenunciaPeAPI_HostAddress}}/api/denuncias
+Accept: application/json
+
+###
+
+POST {{DenunciaPeAPI_HostAddress}}/api/denuncias
+Content-Type: application/json
+
+{
+  "fechaDenuncia": "2026-09-20",
+  "idTipoDenuncia": 1,
+  "denunciante": {
+    "tipoDocumento": "DNI",
+    "nroDocumento": "12345678",
+    "nombres": "Juan",
+    "apellidos": "Perez",
+    "nroTelefono": "987654321",
+    "direccion": "Av. Siempre Viva 123",
+    "ubigeo": "150101"
+  },
+  "denunciado": {
+    "nombreApelativo": "El Flaco",
+    "caracteristica": "1.80m, contextura delgada"
+  },
+  "incidente": {
+    "fechaIncidente": "2026-09-19T22:30:00",
+    "ubigeoIncidente": "150101",
+    "direccionIncidente": "Jr. Union 456",
+    "latitud": "-12.0464",
+    "longitud": "-77.0428",
+    "referencia": "Cerca al parque"
+  },
+  "evidencias": [
+    { "nombreArchivo": "foto1.jpg", "url": "https://storage.example.com/foto1.jpg" }
+  ]
+}
+
+###
+
+# Ejemplo de solicitud invalida: falta 'incidente' y no hay evidencias -> 400 + auditoria
+POST {{DenunciaPeAPI_HostAddress}}/api/denuncias
+Content-Type: application/json
+
+{
+  "fechaDenuncia": "2026-09-20",
+  "denunciante": {
+    "tipoDocumento": "DNI",
+    "nroDocumento": "12345678",
+    "nombres": "Juan",
+    "apellidos": "Perez",
+    "nroTelefono": "987654321",
+    "direccion": "Av. Siempre Viva 123",
+    "ubigeo": "150101"
+  },
+  "denunciado": {},
+  "evidencias": []
+}
+
