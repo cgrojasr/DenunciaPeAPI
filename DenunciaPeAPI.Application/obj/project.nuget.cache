@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DyHEPPCoAcU=",
+  "dgSpecHash": "zT1gLMt9XN8=",
   "success": true,
-  "projectFilePath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj",
+  "projectFilePath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cgroj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
-    "C:\\Users\\cgroj\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.12\\microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512"
+    "/Users/genaro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "/Users/genaro/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.12/microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512"
   ],
   "logs": []
 }

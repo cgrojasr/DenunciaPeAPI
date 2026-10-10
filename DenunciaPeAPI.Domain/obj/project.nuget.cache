@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "phYm6Gh5EAc=",
+  "dgSpecHash": "AYILFivMxFc=",
   "success": true,
-  "projectFilePath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj",
+  "projectFilePath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

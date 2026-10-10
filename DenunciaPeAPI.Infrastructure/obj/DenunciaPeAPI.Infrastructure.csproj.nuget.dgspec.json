@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Infrastructure\\DenunciaPeAPI.Infrastructure.csproj": {}
+    "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Infrastructure/DenunciaPeAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj": {
+    "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj",
+        "projectUniqueName": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj",
         "projectName": "DenunciaPeAPI.Application",
-        "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\cgroj\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\obj\\",
+        "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj",
+        "packagesPath": "/Users/genaro/.nuget/packages/",
+        "outputPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cgroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/genaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj": {
-                "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj"
+              "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj": {
+                "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj"
               }
             }
           }
@@ -48,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -79,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -357,28 +351,22 @@
         }
       }
     },
-    "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj": {
+    "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj",
+        "projectUniqueName": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj",
         "projectName": "DenunciaPeAPI.Domain",
-        "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\cgroj\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\obj\\",
+        "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj",
+        "packagesPath": "/Users/genaro/.nuget/packages/",
+        "outputPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cgroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/genaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -397,7 +385,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -418,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -696,39 +684,33 @@
         }
       }
     },
-    "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Infrastructure\\DenunciaPeAPI.Infrastructure.csproj": {
+    "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Infrastructure/DenunciaPeAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Infrastructure\\DenunciaPeAPI.Infrastructure.csproj",
+        "projectUniqueName": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Infrastructure/DenunciaPeAPI.Infrastructure.csproj",
         "projectName": "DenunciaPeAPI.Infrastructure",
-        "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Infrastructure\\DenunciaPeAPI.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\cgroj\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Infrastructure\\obj\\",
+        "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Infrastructure/DenunciaPeAPI.Infrastructure.csproj",
+        "packagesPath": "/Users/genaro/.nuget/packages/",
+        "outputPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cgroj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/genaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj": {
-                "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Application\\DenunciaPeAPI.Application.csproj"
+              "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj": {
+                "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/DenunciaPeAPI.Application.csproj"
               },
-              "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj": {
-                "projectPath": "D:\\Development\\Visual Studio\\DenunciaPeAPI\\DenunciaPeAPI.Domain\\DenunciaPeAPI.Domain.csproj"
+              "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj": {
+                "projectPath": "/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Domain/DenunciaPeAPI.Domain.csproj"
               }
             }
           }
@@ -743,7 +725,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -778,7 +760,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

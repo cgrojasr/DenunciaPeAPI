@@ -1,0 +1,16 @@
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/bin/Release/net10.0/DenunciaPeAPI.Application.deps.json
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/bin/Release/net10.0/DenunciaPeAPI.Application.dll
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/bin/Release/net10.0/DenunciaPeAPI.Application.pdb
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/bin/Release/net10.0/DenunciaPeAPI.Domain.dll
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/bin/Release/net10.0/DenunciaPeAPI.Domain.pdb
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.csproj.AssemblyReference.cache
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.AssemblyInfoInputs.cache
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.AssemblyInfo.cs
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.csproj.CoreCompileInputs.cache
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.sourcelink.json
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/Denuncia.0DCEA161.Up2Date
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.dll
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/refint/DenunciaPeAPI.Application.dll
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/DenunciaPeAPI.Application.pdb
+/Users/genaro/Documents/Development/NET Core/DemoAPI/DenunciaPeAPI/DenunciaPeAPI.Application/obj/Release/net10.0/ref/DenunciaPeAPI.Application.dll
