@@ -17,6 +17,12 @@ public class DenunciaService(IDenunciaRepository repository, IAuditoriaService a
         return denuncias.Select(d => new DenunciaResumenDto(d.Id, d.FechaDenuncia, d.IdTipoDenuncia));
     }
 
+    public async Task<IEnumerable<DenunciaResumenDto>> GetByNroDocumentoAsync(string nroDocumento)
+    {
+        var denuncias = await repository.GetByNroDocumentoAsync(nroDocumento);
+        return denuncias.Select(d => new DenunciaResumenDto(d.Id, d.FechaDenuncia, d.IdTipoDenuncia, d.Referencia));
+    }
+
     public async Task<DenunciaDto?> GetByIdAsync(int id)
     {
         var denuncia = await repository.GetByIdAsync(id);
@@ -59,7 +65,9 @@ public class DenunciaService(IDenunciaRepository repository, IAuditoriaService a
                 DireccionIncidente = dto.Incidente.DireccionIncidente,
                 Latitud = dto.Incidente.Latitud,
                 Longitud = dto.Incidente.Longitud,
-                Referencia = dto.Incidente.Referencia
+                Referencia = string.IsNullOrWhiteSpace(dto.Narracion)
+                    ? dto.Incidente.Referencia
+                    : dto.Narracion.Trim()
             },
             Evidencias = dto.Evidencias
                 .Select(e => new Evidencia { NombreArchivo = e.NombreArchivo, Url = e.Url })

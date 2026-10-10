@@ -34,7 +34,8 @@ public record CreateDenunciaRequestDto(
     [Required] DenuncianteDto Denunciante,
     [Required] DenunciadoDto Denunciado,
     [Required] IncidenteDto Incidente,
-    [Required, MinLength(1)] List<EvidenciaDto> Evidencias);
+    [Required, MinLength(1)] List<EvidenciaDto> Evidencias,
+    string? Narracion = null);
 
 public record DenunciaDto(
     int Id,
@@ -48,4 +49,5 @@ public record DenunciaDto(
 public record DenunciaResumenDto(
     int Id,
     DateTime FechaDenuncia,
-    int? IdTipoDenuncia);
+    int? IdTipoDenuncia,
+    string? Referencia = null);

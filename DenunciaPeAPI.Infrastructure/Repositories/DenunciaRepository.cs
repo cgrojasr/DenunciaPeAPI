@@ -17,6 +17,21 @@ public class DenunciaRepository(IDbConnectionFactory connectionFactory) : IDenun
         return await connection.QueryAsync<Denuncia>(sql);
     }
 
+    public async Task<IEnumerable<DenunciaConReferencia>> GetByNroDocumentoAsync(string nroDocumento)
+    {
+        using var connection = connectionFactory.CreateConnection();
+        const string sql = """
+            SELECT d.id_denuncia AS Id, d.fecha_denuncia AS FechaDenuncia, d.id_tipo_denuncia AS IdTipoDenuncia,
+                   LEFT(i.referencia, 50) AS Referencia
+            FROM denuncia d
+            INNER JOIN denunciante dn ON dn.id_denuncia = d.id_denuncia
+            LEFT JOIN incidente i ON i.id_denuncia = d.id_denuncia
+            WHERE dn.nro_documento = @NroDocumento
+            ORDER BY d.fecha_denuncia DESC, d.id_denuncia DESC
+            """;
+        return await connection.QueryAsync<DenunciaConReferencia>(sql, new { NroDocumento = nroDocumento });
+    }
+
     public async Task<DenunciaCompuesta?> GetByIdAsync(int id)
     {
         using var connection = connectionFactory.CreateConnection();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DenunciaPeAPI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+895a29a402c173bba31e876278a5bf31962f41a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3db4a1a152c2c42958655218f870746dac5dd421")]
 [assembly: System.Reflection.AssemblyProductAttribute("DenunciaPeAPI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DenunciaPeAPI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

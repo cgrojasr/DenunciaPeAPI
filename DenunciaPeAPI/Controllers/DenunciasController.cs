@@ -13,6 +13,12 @@ public class DenunciasController(IDenunciaService denunciaService) : ControllerB
     public async Task<ActionResult<IEnumerable<DenunciaResumenDto>>> GetAll()
         => Ok(await denunciaService.GetAllAsync());
 
+    [HttpGet("denunciante/{nroDocumento}")]
+    public async Task<ActionResult<IEnumerable<DenunciaResumenDto>>> GetByNroDocumento(string nroDocumento)
+    {
+        return Ok(await denunciaService.GetByNroDocumentoAsync(nroDocumento));
+    }
+
     [HttpGet("{id:int}")]
     public async Task<ActionResult<DenunciaDto>> GetById(int id)
     {
